@@ -1,0 +1,199 @@
+@media screen and (max-width: 767px) {
+    header {
+        height: 540px;
+
+        .top-block {
+            flex-direction: column-reverse;
+            padding: 20px 0 0 0;
+
+            .dreamshare {
+                margin-top: 97px;
+            }
+        }
+
+        .middle-block {
+            width: 281px;
+            margin-top: 27px;
+
+            h1 {
+                font-size: 30px;
+                line-height: 37px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            a {
+                width: 280px;
+            }
+        }
+    }
+
+    main {
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    .works {
+        padding-top: 35px;
+
+        .step {
+            flex-direction: column;
+            align-items: center;
+
+            &__block {
+                width: 300px;
+                height: 240px;
+                padding: 0 30px 16px 20px;
+                margin-bottom: 10px;
+            }
+
+            &__block:first-child {
+                background: url(../images/Step-1-image.png) no-repeat;
+
+            }
+
+            &__block:nth-child(2) {
+                background: url(../images/Step-2-image.png) no-repeat;
+            }
+
+            &__block:last-child {
+                background: url(../images/Step-3-image.png) no-repeat;
+            }
+        }
+    }
+
+    .partners {
+        padding-top: 36px;
+
+        .partner {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            &__block {
+                margin-bottom: 16px;
+            }
+        }
+
+        a {
+            width: 280px;
+            margin-top: 36px;
+        }
+    }
+
+    .discover {
+        padding-top: 35px;
+
+        .photo {
+            grid-template-columns: 300px;
+            grid-template-rows: repeat(7, 120px);
+            grid-column-gap: 0;
+            grid-row-gap: 10px;
+            justify-content: center;
+
+            &__block:first-child {
+                background: url(../images/activity-1.png) no-repeat;
+            }
+
+            &__block:nth-child(2) {
+                background: url(../images/activity-2.png) no-repeat;
+            }
+
+            &__block:nth-child(3) {
+                background: url(../images/activity-3.png) no-repeat;
+            }
+
+            &__block:nth-child(4) {
+                background: url(../images/activity-4.png) no-repeat;
+            }
+
+            &__block:nth-child(5) {
+                grid-column: 1 / 2;
+                background: url(../images/activity-5.png) no-repeat;
+            }
+
+            &__block:nth-child(6) {
+                grid-column: 1 / 2;
+                background: url(../images/activity-6.png) no-repeat;
+            }
+
+            &__block:nth-child(7) {
+                background: url(../images/activity-7.png) no-repeat;
+            }
+        }
+    }
+
+    .create {
+        padding: 35px 0 40px 0;
+
+        .search {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__input {
+                width: 280px;
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+
+            &__btn {
+                width: 280px;
+            }
+        }
+    }
+
+    footer {
+        .footer {
+            flex-direction: column;
+            align-items: center;
+            padding: 22px 0;
+
+            &__dreamshare {
+                margin-bottom: 13px;
+            }
+
+            &__menu {
+                width: 280px;
+                margin-left: 0;
+                flex-direction: column;
+                text-align: center;
+
+                ul:first-child {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    li {
+                        margin: 0 10px;
+                    }
+
+                    li:first-child {
+                        text-align: center;
+                        flex-basis: 100%;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                ul:nth-child(2) {
+                    margin: 6px 0 14px 0;
+                }
+            }
+
+            .designed-by {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        background: url(../images/Bg-small.png) no-repeat;
+        background-position: center;
+    }
+
+}
